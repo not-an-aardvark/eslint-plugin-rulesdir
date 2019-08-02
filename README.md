@@ -18,8 +18,6 @@ Next, install `eslint-plugin-rulesdir`:
 $ npm install eslint-plugin-rulesdir --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-rulesdir` globally.
-
 ## Usage
 
 To use this plugin, you must load it manually first and set its `RULES_DIR` property to a path. The path is resolved from the current working directory, and indicates where you would like the plugin to load your rules from. This is easiest if you use a JavaScript config file (`.eslintrc.js`), and use a local installation of ESLint.
